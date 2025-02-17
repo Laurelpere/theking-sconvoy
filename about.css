@@ -52,16 +52,30 @@ header img {
     max-width: 100%;
     height: auto;
 }
+nav {
+    background-color: #ffcc00;
+    padding: 10px 0;
+    text-align: center;
+}
 
-header nav a {
+nav a {
+    color: #333;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #fff;
+}
+
+
+nav a {
     color: #fff;
     text-decoration: none;
     margin: 0 10px;
     font-size: 18px;
-}
-
-header nav a:hover {
-    text-decoration: underline;
 }
 
 #container_box {
@@ -115,6 +129,11 @@ footer p {
     header nav {
         margin-top: 10px;
     }
+    nav li{
+        display: flex;
+        flex-direction: column;
+        font-size: 10px;
+    }
 
     header nav a {
         display: block;
@@ -127,5 +146,9 @@ footer p {
 
     main .tag-title small {
         font-size: 12px;
+    }
+
+    #logo{
+        width: 100px;
     }
 }
