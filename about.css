@@ -104,3 +104,28 @@ footer {
 footer p {
     margin: 0;
 }
+
+/* Small screen styles */
+@media (max-width: 768px) {
+    header .container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    header nav a {
+        display: block;
+        margin: 5px 0;
+    }
+
+    main .tag-title h1 {
+        font-size: 28px;
+    }
+
+    main .tag-title small {
+        font-size: 12px;
+    }
+}
