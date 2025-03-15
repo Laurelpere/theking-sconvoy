@@ -136,7 +136,6 @@ nav ul li a {
     header {
         background-size: cover;
         background-position: center center;
-        position: relative;
         width: 100%;
         height: auto;
         z-index: 500;
