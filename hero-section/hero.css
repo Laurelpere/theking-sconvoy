@@ -166,6 +166,9 @@ nav ul li a {
     }
 
     .overlay {
+        position: fixed;
+        top: 0;
+        right: 0;
         width: 50%;
         height: 100vh;
         background-color: rgba(0, 0, 0, 0.6);
@@ -175,9 +178,11 @@ nav ul li a {
     nav ul {
         padding-right: 10px;
         flex-direction: column;
-        padding-top: 100px;
+        padding-top: 40px;
         z-index: 3;
-        position: relative;
+        position: fixed;
+        top: 0;
+        right: 0;
 
 
     }
@@ -185,8 +190,8 @@ nav ul li a {
     nav ul li {
         width: 100%;
         font-size: 14px;
-        margin-right: 10px;
-        padding-bottom: 18px;
+        margin-left: 18px;
+        padding-bottom: 20px;
         z-index: 4;
 
 
