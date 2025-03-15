@@ -188,9 +188,6 @@ nav ul li a {
         flex-direction: column;
         padding-top: 200px;
         z-index: 4;
-        position: absolute;
-        top: 0;
-        left: 0;
 
 
     }
@@ -208,10 +205,6 @@ nav ul li a {
     #nav-logo {
         width: 30px;
         margin-left: 20px;
-    }
-
-    .divider {
-        height: 0;
     }
 
 }
