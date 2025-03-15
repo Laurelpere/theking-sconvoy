@@ -125,7 +125,7 @@ nav ul li a {
     }
 
     header p {
-        font-size: 10px;
+        font-size: 14px;
         margin-top: 10px;
     }
 
@@ -186,7 +186,7 @@ nav ul li a {
     nav ul {
         padding-right: 10px;
         flex-direction: column;
-        padding-top: 100px;
+        padding-top: 200px;
         z-index: 3;
         position: relative;
 
