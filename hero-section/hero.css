@@ -174,9 +174,6 @@ nav ul li a {
     }
 
     .overlay {
-        position: fixed;
-        top: 0;
-        right: 0;
         width: 50%;
         height: 100vh;
         background-color: rgba(0, 0, 0, 0.6);
