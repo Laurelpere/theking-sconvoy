@@ -188,7 +188,9 @@ nav ul li a {
         flex-direction: column;
         padding-top: 200px;
         z-index: 3;
-        position: relative;
+        position: absolute;
+        top: 100%;
+        left: 0;
 
 
     }
@@ -198,6 +200,9 @@ nav ul li a {
         font-size: 14px;
         margin-right: 10px;
         padding-bottom: 14px;
+        position: absolute;
+        top: 0;
+        left: 0;
         z-index: 4;
 
 
